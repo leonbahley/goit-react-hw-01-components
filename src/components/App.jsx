@@ -2,12 +2,10 @@ import Profile from './profile/Profile';
 import Statistics from './statistics/Statistics';
 import FriendList from './friendList/FriendList';
 import TransactionHistory from './transactionHistory/TransactionHistory';
-import transactions from './transactionHistory/transactions.json';
-
-import friends from './friendList/friends.json';
-
-import data from './statistics/data.json';
-import user from './profile/user.json';
+import transactions from '../data/transactions.json';
+import friends from '../data/friends.json';
+import data from '../data/data.json';
+import user from '../data/user.json';
 export const App = () => {
   return (
     <div>
